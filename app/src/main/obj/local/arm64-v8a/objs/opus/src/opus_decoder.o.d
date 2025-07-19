@@ -1,128 +1,47 @@
-F:/Android_projects/Opus/app/src/main/obj/local/arm64-v8a/objs/opus/src/opus_decoder.o: \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\src\opus_decoder.c \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\celt.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_types.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_defines.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_types.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_custom.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_defines.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entenc.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entcode.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\ecintrin.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\arch.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\fixed_generic.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entdec.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entdec.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\modes.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\celt.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\mdct.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\kiss_fft.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\cpu_support.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\API.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\control.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\typedef.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\errors.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entenc.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\stack_alloc.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\float_cast.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\src\opus_private.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\arch.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\os_support.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\structs.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\SigProc_FIX.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\resampler_structs.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\macros.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\ecintrin.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\cpu_support.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\Inlines.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\MacroCount.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\MacroDebug.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\define.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\define.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\mathops.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\os_support.h
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\celt.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_types.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_defines.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_types.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_custom.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_defines.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entenc.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entcode.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\ecintrin.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\arch.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\fixed_generic.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entdec.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entdec.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\modes.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\celt.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\mdct.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\kiss_fft.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\cpu_support.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\API.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\control.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\typedef.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\errors.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entenc.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\stack_alloc.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\float_cast.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\src\opus_private.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\arch.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\os_support.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\structs.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\SigProc_FIX.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\resampler_structs.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\macros.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\ecintrin.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\cpu_support.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\Inlines.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\MacroCount.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\MacroDebug.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\define.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\define.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\mathops.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\os_support.h:
+./obj/local/arm64-v8a/objs/opus/src/opus_decoder.o: \
+  libopus/src/opus_decoder.c libopus/celt/celt.h \
+  libopus/include/opus_types.h libopus/include/opus_defines.h \
+  libopus/include/opus_custom.h libopus/celt/entenc.h \
+  libopus/celt/entcode.h libopus/celt/ecintrin.h libopus/celt/arch.h \
+  libopus/celt/fixed_generic.h libopus/celt/entdec.h \
+  libopus/include/opus.h libopus/celt/modes.h libopus/celt/mdct.h \
+  libopus/celt/kiss_fft.h libopus/celt/cpu_support.h libopus/silk/API.h \
+  libopus/silk/control.h libopus/silk/typedef.h libopus/silk/errors.h \
+  libopus/celt/stack_alloc.h libopus/celt/float_cast.h \
+  libopus/src/opus_private.h libopus/celt/os_support.h \
+  libopus/silk/structs.h libopus/silk/SigProc_FIX.h \
+  libopus/silk/resampler_structs.h libopus/silk/macros.h \
+  libopus/silk/Inlines.h libopus/silk/MacroCount.h \
+  libopus/silk/MacroDebug.h libopus/silk/define.h libopus/celt/mathops.h
+libopus/celt/celt.h:
+libopus/include/opus_types.h:
+libopus/include/opus_defines.h:
+libopus/include/opus_custom.h:
+libopus/celt/entenc.h:
+libopus/celt/entcode.h:
+libopus/celt/ecintrin.h:
+libopus/celt/arch.h:
+libopus/celt/fixed_generic.h:
+libopus/celt/entdec.h:
+libopus/include/opus.h:
+libopus/celt/modes.h:
+libopus/celt/mdct.h:
+libopus/celt/kiss_fft.h:
+libopus/celt/cpu_support.h:
+libopus/silk/API.h:
+libopus/silk/control.h:
+libopus/silk/typedef.h:
+libopus/silk/errors.h:
+libopus/celt/stack_alloc.h:
+libopus/celt/float_cast.h:
+libopus/src/opus_private.h:
+libopus/celt/os_support.h:
+libopus/silk/structs.h:
+libopus/silk/SigProc_FIX.h:
+libopus/silk/resampler_structs.h:
+libopus/silk/macros.h:
+libopus/silk/Inlines.h:
+libopus/silk/MacroCount.h:
+libopus/silk/MacroDebug.h:
+libopus/silk/define.h:
+libopus/celt/mathops.h:

@@ -281,7 +281,10 @@ endif()
 
 add_library(opus ${opus_headers} ${opus_sources} ${opus_sources_float} ${Opus_PUBLIC_HEADER})
 add_library(Opus::opus ALIAS opus)
-
+# Android 15 16KB 对齐
+set_target_properties(opus PROPERTIES
+        LINK_FLAGS "-Wl,-z,max-page-size=16384"
+)
 get_library_version(OPUS_LIBRARY_VERSION OPUS_LIBRARY_VERSION_MAJOR)
 message(DEBUG "Opus library version: ${OPUS_LIBRARY_VERSION}")
 

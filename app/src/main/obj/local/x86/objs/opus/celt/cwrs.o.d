@@ -1,41 +1,18 @@
-F:/Android_projects/Opus/app/src/main/obj/local/x86/objs/opus/celt/cwrs.o: \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\cwrs.c \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\os_support.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_types.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_defines.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_types.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\cwrs.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\arch.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\fixed_generic.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\stack_alloc.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entenc.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entcode.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\ecintrin.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entdec.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\mathops.h
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\os_support.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_types.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_defines.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_types.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\cwrs.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\arch.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\fixed_generic.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\stack_alloc.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entenc.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entcode.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\ecintrin.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entdec.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\mathops.h:
+./obj/local/x86/objs/opus/celt/cwrs.o: libopus/celt/cwrs.c \
+  libopus/celt/os_support.h libopus/include/opus_types.h \
+  libopus/include/opus_defines.h libopus/celt/cwrs.h libopus/celt/arch.h \
+  libopus/celt/fixed_generic.h libopus/celt/stack_alloc.h \
+  libopus/celt/entenc.h libopus/celt/entcode.h libopus/celt/ecintrin.h \
+  libopus/celt/entdec.h libopus/celt/mathops.h
+libopus/celt/os_support.h:
+libopus/include/opus_types.h:
+libopus/include/opus_defines.h:
+libopus/celt/cwrs.h:
+libopus/celt/arch.h:
+libopus/celt/fixed_generic.h:
+libopus/celt/stack_alloc.h:
+libopus/celt/entenc.h:
+libopus/celt/entcode.h:
+libopus/celt/ecintrin.h:
+libopus/celt/entdec.h:
+libopus/celt/mathops.h:

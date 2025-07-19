@@ -11,6 +11,7 @@ include $(LOCAL_PATH)/silk_sources.mk
 include $(LOCAL_PATH)/opus_sources.mk
 
 LOCAL_MODULE        := opus
+LOCAL_LDFLAGS += -Wl,-z,max-page-size=16384
 
 #fixed point sources
 SILK_SOURCES += $(SILK_SOURCES_FIXED)
@@ -53,6 +54,7 @@ include $(BUILD_SHARED_LIBRARY)
 include $(CLEAR_VARS)
 LOCAL_PATH			:= $(ROOT)/libopusenc
 LOCAL_MODULE        := opusenc
+LOCAL_LDFLAGS += -Wl,-z,max-page-size=16384
 
 LOCAL_SRC_FILES := \
 	$(addprefix ../, $(shell cd $(LOCAL_PATH)/../; \

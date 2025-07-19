@@ -1,50 +1,23 @@
-F:/Android_projects/Opus/app/src/main/obj/local/armeabi-v7a/objs/opus/silk/pitch_est_tables.o: \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\pitch_est_tables.c \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\typedef.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_types.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_defines.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_types.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\pitch_est_defines.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\SigProc_FIX.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\resampler_structs.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\macros.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\arch.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\fixed_generic.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\ecintrin.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\arch.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\cpu_support.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\Inlines.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\MacroCount.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\silk\MacroDebug.h
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\typedef.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_types.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_defines.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_types.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\pitch_est_defines.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\SigProc_FIX.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\resampler_structs.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\macros.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\arch.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\fixed_generic.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\ecintrin.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\arch.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\cpu_support.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\Inlines.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\MacroCount.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\silk\MacroDebug.h:
+./obj/local/armeabi-v7a/objs/opus/silk/pitch_est_tables.o: \
+  libopus/silk/pitch_est_tables.c libopus/silk/typedef.h \
+  libopus/include/opus_types.h libopus/include/opus_defines.h \
+  libopus/silk/pitch_est_defines.h libopus/silk/SigProc_FIX.h \
+  libopus/silk/resampler_structs.h libopus/silk/macros.h \
+  libopus/celt/arch.h libopus/celt/fixed_generic.h \
+  libopus/celt/ecintrin.h libopus/celt/cpu_support.h \
+  libopus/silk/Inlines.h libopus/silk/MacroCount.h \
+  libopus/silk/MacroDebug.h
+libopus/silk/typedef.h:
+libopus/include/opus_types.h:
+libopus/include/opus_defines.h:
+libopus/silk/pitch_est_defines.h:
+libopus/silk/SigProc_FIX.h:
+libopus/silk/resampler_structs.h:
+libopus/silk/macros.h:
+libopus/celt/arch.h:
+libopus/celt/fixed_generic.h:
+libopus/celt/ecintrin.h:
+libopus/celt/cpu_support.h:
+libopus/silk/Inlines.h:
+libopus/silk/MacroCount.h:
+libopus/silk/MacroDebug.h:

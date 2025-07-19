@@ -1,71 +1,31 @@
-F:/Android_projects/Opus/app/src/main/obj/local/armeabi-v7a/objs/opus/celt/quant_bands.o: \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\quant_bands.c \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\quant_bands.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\arch.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_types.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_defines.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_types.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\fixed_generic.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\modes.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\celt.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_custom.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_defines.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entenc.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entcode.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\ecintrin.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entdec.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\mdct.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\kiss_fft.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\cpu_support.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\mathops.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\os_support.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\laplace.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\stack_alloc.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\rate.h \
-  F:\Android_projects\Opus\app\src\main\jni\libopus\celt\cwrs.h
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\quant_bands.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\arch.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_types.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_defines.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_types.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\fixed_generic.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\modes.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\celt.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_custom.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\include\opus_defines.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entenc.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entcode.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\ecintrin.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\entdec.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\mdct.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\kiss_fft.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\cpu_support.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\mathops.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\os_support.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\laplace.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\stack_alloc.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\rate.h:
-
-F:\Android_projects\Opus\app\src\main\jni\libopus\celt\cwrs.h:
+./obj/local/armeabi-v7a/objs/opus/celt/quant_bands.o: \
+  libopus/celt/quant_bands.c libopus/celt/quant_bands.h \
+  libopus/celt/arch.h libopus/include/opus_types.h \
+  libopus/include/opus_defines.h libopus/celt/fixed_generic.h \
+  libopus/celt/modes.h libopus/celt/celt.h libopus/include/opus_custom.h \
+  libopus/celt/entenc.h libopus/celt/entcode.h libopus/celt/ecintrin.h \
+  libopus/celt/entdec.h libopus/celt/mdct.h libopus/celt/kiss_fft.h \
+  libopus/celt/cpu_support.h libopus/celt/mathops.h \
+  libopus/celt/os_support.h libopus/celt/laplace.h \
+  libopus/celt/stack_alloc.h libopus/celt/rate.h libopus/celt/cwrs.h
+libopus/celt/quant_bands.h:
+libopus/celt/arch.h:
+libopus/include/opus_types.h:
+libopus/include/opus_defines.h:
+libopus/celt/fixed_generic.h:
+libopus/celt/modes.h:
+libopus/celt/celt.h:
+libopus/include/opus_custom.h:
+libopus/celt/entenc.h:
+libopus/celt/entcode.h:
+libopus/celt/ecintrin.h:
+libopus/celt/entdec.h:
+libopus/celt/mdct.h:
+libopus/celt/kiss_fft.h:
+libopus/celt/cpu_support.h:
+libopus/celt/mathops.h:
+libopus/celt/os_support.h:
+libopus/celt/laplace.h:
+libopus/celt/stack_alloc.h:
+libopus/celt/rate.h:
+libopus/celt/cwrs.h:
