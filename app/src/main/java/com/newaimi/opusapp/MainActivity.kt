@@ -1,15 +1,18 @@
-package com.theeasiestway.opusapp
+package com.newaimi.opusapp
 
+import android.Manifest
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.*
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import com.theeasiestway.opus.Constants
-import com.theeasiestway.opus.Opus
-import com.theeasiestway.opusapp.mic.ControllerAudio
+import androidx.core.content.ContextCompat
+import com.newaimi.opus.Constants
+import com.newaimi.opus.Opus
+import com.newaimi.opusapp.mic.ControllerAudio
 
 //
 // Created by Loboda Alexey on 21.05.2020.
@@ -21,7 +24,21 @@ class MainActivity : AppCompatActivity() {
     private val audioPermission = android.Manifest.permission.RECORD_AUDIO
     private val readPermission = android.Manifest.permission.READ_EXTERNAL_STORAGE
     private val writePermission = android.Manifest.permission.WRITE_EXTERNAL_STORAGE
+    private val permissionLauncher = this.registerForActivityResult(
+        ActivityResultContracts.RequestMultiplePermissions()
+    ) { permissions ->
+        val audioGranted = permissions[audioPermission] ?: false
 
+        if (audioGranted) {
+            startLoop()
+        } else {
+            Toast.makeText(
+                this,
+                "Audio recording permission is required to continue",
+                Toast.LENGTH_LONG
+            ).show()
+        }
+    }
     private lateinit var vSampleRateSeek: SeekBar
     private lateinit var vSampleRate: TextView
     private lateinit var vPlay: Button
@@ -191,25 +208,34 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun requestPermissions() {
-        if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M) startLoop()
-        else if (checkSelfPermission(audioPermission) != PackageManager.PERMISSION_GRANTED ||
-            checkSelfPermission(readPermission) != PackageManager.PERMISSION_GRANTED ||
-            checkSelfPermission(writePermission) != PackageManager.PERMISSION_GRANTED) {
-            requestPermissions(arrayOf(audioPermission, readPermission, writePermission), 123)
-        } else startLoop()
-    }
+        when {
+            // Android 13+ (API 33+) - 只需要音频权限
+            Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU -> {
+                if (ContextCompat.checkSelfPermission(this, audioPermission) == PackageManager.PERMISSION_GRANTED) {
+                    startLoop()
+                } else {
+                    permissionLauncher.launch(arrayOf(audioPermission))
+                }
+            }
 
-    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
-        if (permissions[0] == audioPermission &&
-            permissions[1] == readPermission &&
-            permissions[2] == writePermission &&
-            requestCode == 123) {
-            if (grantResults[0] == PackageManager.PERMISSION_GRANTED &&
-                grantResults[1] == PackageManager.PERMISSION_GRANTED &&
-                grantResults[2] == PackageManager.PERMISSION_GRANTED) startLoop()
-            else Toast.makeText(this, "App doesn't have enough permissions to continue", Toast.LENGTH_LONG).show()
+            // Android 7.0 到 12 (API 24-32) - 音频 + 存储权限
+            else -> {
+                val readPermission = Manifest.permission.READ_EXTERNAL_STORAGE
+                val writePermission = Manifest.permission.WRITE_EXTERNAL_STORAGE
+
+                val audioGranted = ContextCompat.checkSelfPermission(this, audioPermission) == PackageManager.PERMISSION_GRANTED
+                val readGranted = ContextCompat.checkSelfPermission(this, readPermission) == PackageManager.PERMISSION_GRANTED
+                val writeGranted = ContextCompat.checkSelfPermission(this, writePermission) == PackageManager.PERMISSION_GRANTED
+
+                if (audioGranted && readGranted && writeGranted) {
+                    startLoop()
+                } else {
+                    permissionLauncher.launch(arrayOf(audioPermission, readPermission, writePermission))
+                }
+            }
         }
     }
+
 
     override fun onPause() {
         super.onPause()

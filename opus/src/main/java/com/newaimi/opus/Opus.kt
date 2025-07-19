@@ -1,4 +1,4 @@
-package com.theeasiestway.opus
+package com.newaimi.opus
 
 import android.util.Log
 

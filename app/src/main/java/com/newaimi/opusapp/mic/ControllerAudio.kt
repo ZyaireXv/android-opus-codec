@@ -1,4 +1,4 @@
-package com.theeasiestway.opusapp.mic
+package com.newaimi.opusapp.mic
 
 import android.media.*
 import android.media.audiofx.AutomaticGainControl
